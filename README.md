@@ -23,15 +23,15 @@ LFW colored images are being used. Only those identities are selected which have
 
 Architecture  | batch_size | embedding_dim | train_acc, dev_acc vs iterations | train_loss vs iterations
 ----|----|----|----|----|
-ResNet18 | 32 | 128 | ![Screen Shot](results/resnet1.png) | ![Screen Shot](results/resnet2.png) <br>
+ResNet18 | 32 | 128 | ![Screen Shot](resnet1.png) | ![Screen Shot](resnet2.png) <br>
 
-ResNet18 | 64 | 128 | ![Screen Shot](results/resnet3.png) | ![Screen Shot](results/resnet4.png) <br>
+ResNet18 | 64 | 128 | ![Screen Shot](resnet3.png) | ![Screen Shot](resnet4.png) <br>
 
-AlexNet | 32 | 128 | ![Screen Shot](results/alexnet1.png) | ![Screen Shot](results/alexnet2.png) <br>
+AlexNet | 32 | 128 | ![Screen Shot](alexnet1.png) | ![Screen Shot](alexnet2.png) <br>
 
-ResNet152 | 32 | 128 | ![Screen Shot](results/resnet5.png) | ![Screen Shot](results/resnet6.png) <br>
+ResNet152 | 32 | 128 | ![Screen Shot](resnet5.png) | ![Screen Shot](resnet6.png) <br>
 
-ResNet152 | 32 | 64 | ![Screen Shot](results/resnet7.png) | ![Screen Shot](results/resnet8.png) <br>
+ResNet152 | 32 | 64 | ![Screen Shot](resnet7.png) | ![Screen Shot](resnet8.png) <br>
 
 
 
