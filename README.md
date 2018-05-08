@@ -19,7 +19,7 @@ pip install http://download.pytorch.org/whl/cu90/torch-0.4.0-cp36-cp36m-linux_x8
 ## Dataset
 LFW colored images are being used. Only those identities are selected which have 20 - 30 images. Data is then divided into train, dev and test directories with ~80%, ~10%, ~10% split respectively.
 
-## Results
+## [Results](https://docs.google.com/spreadsheets/d/1RxYQQVf0MiLgxIzDh3cO-j19SlYTmQd5Ztf704jGEpk/edit?usp=sharing)
 
 Architecture  | batch_size | embedding_dim | train_acc, dev_acc vs iterations | train_loss vs iterations
 ----|----|----|----|----|
@@ -28,6 +28,7 @@ ResNet18 | 64 | 128 | ![Screen Shot](resnet3.png) | ![Screen Shot](resnet4.png) 
 AlexNet | 32 | 128 | ![Screen Shot](alexnet1.png) | ![Screen Shot](alexnet2.png) <br>
 ResNet152 | 32 | 128 | ![Screen Shot](resnet5.png) | ![Screen Shot](resnet6.png) <br>
 ResNet152 | 32 | 64 | ![Screen Shot](resnet7.png) | ![Screen Shot](resnet8.png) <br>
+ResNet152 | 8 | 64 | ![Screen Shot](resnet9.png) | ![Screen Shot](resnet10.png) <br>
 
 
 
